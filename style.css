@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+}
+
+.item {
+	display:inline-block;
+	border:1px solid black;
+	margin-right:10px;
+	padding:8px 8px 8px 8px;
+}
+
+.item a:active {
+	background-color: yellow;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a :visited {
+	text-decoration: none;
+}
+
+
+.cible{
+	border:2px solid green;
+	border-radius: 5px;
+	box-shadow: 10px;
+	display: none;
+	width:90px;
+}
+
+.active {
+	background-color: yellow;
+}
