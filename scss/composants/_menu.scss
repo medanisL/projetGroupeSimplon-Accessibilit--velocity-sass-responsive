@@ -1,0 +1,33 @@
+.item {
+	width: 150px;
+	height:40px;
+	font-size: 25px;
+	display:inline-block;
+	border:1px solid black;
+	border-radius: 6px;
+	margin-right:10px;
+	text-align: center;
+}
+
+.item:focus {
+	background-color: blue;
+
+} 
+
+.item:hover {
+	background-color:blue ;
+}
+
+
+.item {
+	text-decoration: none;
+	color:black;
+}
+
+.item:visited {
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+}
