@@ -3,3 +3,5 @@
 travail sur le menu accesssible avec tab
 
 utilisation de Sass pour la lisibilité de css
+
+animation avec velocity
