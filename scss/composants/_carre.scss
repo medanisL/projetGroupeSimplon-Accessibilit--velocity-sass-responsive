@@ -1,0 +1,27 @@
+#carre1
+{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	position: relative;
+
+}
+
+#carre2
+{
+	@extend #carre1;
+	background-color: red;
+}
+
+#carre3
+{
+	@extend #carre1;
+	background-color: black;
+	opacity: 0;
+}	
+
+#carre4
+{
+ 	@extend #carre1;
+ 	background-color: yellow;
+}
